@@ -1,4 +1,4 @@
-# Constraint_Learning_to_Model_Trust_Region
+# Constraint Learning to Model Trust Region
 
 This repository contains the problem instances and source code in the article "Constraint Learning to Define Trust Regions in Optimization Over Pre-Trained Predictive Models", authored by Chenbo Shi, Mohsen Emadikhiav, Leonardo Lozano, and David Bergman.
 
