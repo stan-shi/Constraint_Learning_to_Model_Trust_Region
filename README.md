@@ -8,7 +8,7 @@ The folder of [data](data/) contains all the datasets used in the paper, includi
 For each function, we generate 10 different datasets consisting of 1000 points, each generated with a different randomly drawn covariance matrix by specifying the random state. For each dataset, we scale the independent variables to [0, 1], standardize the dependent variable, and randomly split the data into a training set and a test set in the ratio of 7 : 3. Each .xlsx file in [data/synthetic_data](data/synthetic_data) corresponds to the part of the training set, containing 700 points. For each point, column $0$ to column $n-1$ (both $0$ and $n-1$ are column names) records the values of the scaled independent variables, and column $y$ records the value of the standardized dependent variable. 
 
 ## Results 
-The folder of [results](results/) contains the solutions from the real world application ([solutions_wine.csv](results/solutions_wine.csv)) and the results from the synthetic data ([results_experiment.csv](results/results_experiment)). 
+The folder of [results](results/) contains the solutions from the real world application ([solutions_wine.csv](results/solutions_wine.csv)) and the experiment results using the synthetic data ([results_experiment.csv](results/results_experiment)). 
 
 Each record in the "AllInstanceResults" spreadsheet of [results_synthetic_data.csv](results/results_synthetic_data) records the optimization results obtained from solving a problem instance, which is defined by a predictive model (Column C) fitted to a dataset, with a model configuration (Column D) at a specific tightness level (Column E). 
 
