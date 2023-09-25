@@ -13,3 +13,5 @@ The folder of [results](results/) contains the solutions from the real world app
 Each record in the "AllInstanceResults" spreadsheet of [results_experiment.xlsx](../results/results_experiment.xlsx) records the optimization results obtained from solving a problem instance, which is defined by a predictive model (Column C) fitted to a dataset, with a model configuration (Column D) at a specific tightness level (Column E). 
 
 The results include predicted outcome $F(x^\ast_C)$ in Column N, true outcome $f(x^\ast_C)$ in Column O, where $x^\ast_C$ is the solution found by the OPPM model configuration selected, running time in Column R, the percent improvement over **$BASE$** in column Q, and the gap in Column S.
+
+We also include three color figures in Section 4.7. Each figure represents a predictive model fitted to the wine data and displays traing input data, and solutions obtained from the BASE model and two model configurations with IF and MD constraints (set at tightness level 6).
